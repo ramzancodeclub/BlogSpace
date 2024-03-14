@@ -1,0 +1,51 @@
+/* Karla font: weight 200, 400, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+nav {
+    background-color: beige;
+    padding: 5px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+
+form {
+    padding: 90px 10px 10px;
+    display: grid;
+    background-color: lightblue;
+}
+
+input#post-title, textarea#post-body {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(163, 162, 162);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
